@@ -17,14 +17,16 @@ ul {
 }
 
 .home-bg,
-.menu-bg {
+.menu-bg,
+.contact-bg {
   position: absolute;
   max-width: 100%;
   z-index: -1;
 }
 
 .headline-copy,
-.headline-menu {
+.headline-menu,
+.headline-details {
   position: absolute;
   top: 25rem;
 

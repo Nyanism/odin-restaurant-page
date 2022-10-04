@@ -1,5 +1,6 @@
 import homePage from "./home.js";
 import menuPage from "./menu.js";
+import contactPage from "./contact.js";
 
 function displayNavBar(){
   const navBar = document.createElement("div");
@@ -17,7 +18,7 @@ function displayNavBar(){
 
     const contactNodes = document.querySelectorAll(".contact");
     contactNodes.forEach((node) => {
-      node.remove;
+      node.remove();
     });
 
     homePage();
@@ -33,7 +34,7 @@ function displayNavBar(){
 
     const contactNodes = document.querySelectorAll(".contact");
     contactNodes.forEach((node) => {
-      node.remove;
+      node.remove();
     });
 
     menuPage();
@@ -41,7 +42,7 @@ function displayNavBar(){
 
   const contactLink = document.createElement("li");
   contactLink.textContent = "Contact";
-  homeLink.addEventListener("click", () => {
+  contactLink.addEventListener("click", () => {
     const menuNodes = document.querySelectorAll(".menu");
     menuNodes.forEach((node) => {
       node.remove();
@@ -49,7 +50,7 @@ function displayNavBar(){
 
     const homeNodes = document.querySelectorAll(".home");
     homeNodes.forEach((node) => {
-      node.remove;
+      node.remove();
     });
 
     contactPage();
