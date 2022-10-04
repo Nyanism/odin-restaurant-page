@@ -1,0 +1,35 @@
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+  position: relative;
+}
+
+.home-bg {
+  position: absolute;
+  max-width: 100%;
+}
+
+.headline-copy {
+  position: absolute;
+  top: 25rem;
+
+
+  background: rgba(0, 0, 0, 0.7) ;
+  width: 100%;
+
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-headline,
+.home-copy {
+  opacity: 1;
+}
