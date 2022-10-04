@@ -1,3 +1,8 @@
+.nav-bar {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
+
 ul {
   display: flex;
   justify-content: center;
@@ -11,15 +16,17 @@ ul {
   position: relative;
 }
 
-.home-bg {
+.home-bg,
+.menu-bg {
   position: absolute;
   max-width: 100%;
+  z-index: -1;
 }
 
-.headline-copy {
+.headline-copy,
+.headline-menu {
   position: absolute;
   top: 25rem;
-
 
   background: rgba(0, 0, 0, 0.7) ;
   width: 100%;
@@ -27,9 +34,4 @@ ul {
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.home-headline,
-.home-copy {
-  opacity: 1;
 }

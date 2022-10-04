@@ -1,4 +1,5 @@
 import homePage from "./home.js";
+import menuPage from "./menu.js";
 
 function displayNavBar(){
   const navBar = document.createElement("div");
@@ -23,7 +24,7 @@ function displayNavBar(){
   });
 
   const menuLink = document.createElement("li");
-  menuLink.textContent = "Links";
+  menuLink.textContent = "Menu";
   menuLink.addEventListener("click", () => {
     const homeNodes = document.querySelectorAll(".home");
     homeNodes.forEach((node) => {
